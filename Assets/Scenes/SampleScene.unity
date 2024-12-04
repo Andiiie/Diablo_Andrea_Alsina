@@ -2558,6 +2558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b53f13f84b83b3f41b525db8c06bb4ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  distanciaInteraccion: 2
 --- !u!195 &301290534
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -14362,6 +14363,7 @@ GameObject:
   - component: {fileID: 1792005345}
   - component: {fileID: 1792005344}
   - component: {fileID: 1792005343}
+  - component: {fileID: 1792005347}
   m_Layer: 0
   m_Name: npc
   m_TagString: Untagged
@@ -14458,6 +14460,21 @@ Transform:
   - {fileID: 1743350375}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1792005347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792005342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7734a8bd8dd62904e8271d303310f86a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorInteract: {fileID: 2800000, guid: 9cda48e378d35dc4ab62c87729c084dd, type: 3}
+  cursorNormal: {fileID: 2800000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
+  tiempoRotacion: 2
 --- !u!1 &1793706504
 GameObject:
   m_ObjectHideFlags: 0
