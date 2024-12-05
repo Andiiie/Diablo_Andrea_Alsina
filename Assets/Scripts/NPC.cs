@@ -6,7 +6,7 @@ using UnityEngine;
 public class NPC : MonoBehaviour
 {
     Outline linea;
-
+    [SerializeField] DialogoSO dialogue;
     [SerializeField] Texture2D cursorInteract;
     [SerializeField] Texture2D cursorNormal;
 
@@ -18,8 +18,9 @@ public class NPC : MonoBehaviour
 
     public void Interactuar(Transform interactuador)
     {
-        Debug.Log("Puto!");
-        transform.DOLookAt(interactuador.position, tiempoRotacion, AxisConstraint.Y);
+      
+        transform.DOLookAt(interactuador.position, tiempoRotacion, AxisConstraint.Y).OnComplete(()=> SistemaDialogo.trono.IniciarDialogo(dialogue));
+        
     }
 
     private void OnMouseEnter()
