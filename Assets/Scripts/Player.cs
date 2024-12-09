@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst.CompilerServices;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -11,7 +12,7 @@ public class Player : MonoBehaviour
     Camera cam;
 
     // guardo la informacion del npc actual al que voy a hablar
-    NPC npcActual; 
+    Transform ultimoClick; 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -23,17 +24,26 @@ public class Player : MonoBehaviour
     {
         Movimiento();
 
-        // si existe un npc al cual pueda clickear...
-        if (npcActual)
+        if (Time.timeScale == 1)
         {
+            Movimiento();
+        }
+        
+        // si existe un npc al cual pueda clickear...
+        if (ultimoClick&&ultimoClick.TryGetComponent(out NPC npc))
+        {
+            agent.stoppingDistance = distanciaInteraccion;
             // comprobar si he llegado al npc
             if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
             {
-                npcActual.Interactuar(this.transform);
-                npcActual = null;
-                agent.isStopped = true;
-                agent.stoppingDistance = 0;
+                npc.Interactuar(this.transform);
+                ultimoClick = null;
+              
             }
+        }
+        else if (ultimoClick)
+        {
+            agent.stoppingDistance = 0f;
         }
     }
 
@@ -45,17 +55,21 @@ public class Player : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                // mirar si el punto donde ha inpactado el raton tiene el script "NPC"
-                if (hit.transform.TryGetComponent(out NPC npc))
-                {
-                    // en este caso, es el npc actual
-                    npcActual = npc;
-                    // distancia de parada es la de la interaccion
-                    agent.stoppingDistance = distanciaInteraccion;
-                }
-
                 agent.SetDestination(hit.point);
+                ultimoClick = hit.transform;
             }
+
+                
+            
         }
     }
 }
+
+
+// // mirar si el punto donde ha inpactado el raton tiene el script "NPC"
+//                if (hit.transform.TryGetComponent(out NPC npc))
+//{
+//    // en este caso, es el npc actual
+//    npcActual = npc;
+//    // distancia de parada es la de la interaccion
+//    agent.stoppingDistance = distanciaInteraccion;
