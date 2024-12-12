@@ -14,6 +14,8 @@ public class SistemaDialogo : MonoBehaviour
     [SerializeField] GameObject marcos;
     [SerializeField] TMP_Text textoDialogo;
 
+    [SerializeField] Transform npcCamera;
+
     DialogoSO dialogoActual;
     bool escribiendo;
     int indiceFraseActual;
@@ -38,10 +40,12 @@ public class SistemaDialogo : MonoBehaviour
         }
     }
 
-    public void IniciarDialogo(DialogoSO dialogue)    //DialogoSO dialogue)
+    public void IniciarDialogo(DialogoSO dialogue, Transform cameraPoint)    //DialogoSO dialogue)
     {
         Time.timeScale = 0f;
 
+        npcCamera.SetPositionAndRotation(cameraPoint.position, cameraPoint.rotation);
+        // eñ dialogo actual con el que trabajemos es el que me dara como parametro de entrada
         dialogoActual = dialogue;
         marcos.SetActive(true);
         StartCoroutine(EscribirFrase());

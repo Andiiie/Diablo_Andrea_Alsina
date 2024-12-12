@@ -11,6 +11,7 @@ public class NPC : MonoBehaviour
     [SerializeField] Texture2D cursorNormal;
 
     [SerializeField] float tiempoRotacion;
+    [SerializeField] Transform cameraPoint;
     private void Awake()
     {
         linea = GetComponent<Outline>();
@@ -18,8 +19,8 @@ public class NPC : MonoBehaviour
 
     public void Interactuar(Transform interactuador)
     {
-      
-        transform.DOLookAt(interactuador.position, tiempoRotacion, AxisConstraint.Y).OnComplete(()=> SistemaDialogo.trono.IniciarDialogo(dialogue));
+
+        transform.DOLookAt(interactuador.position, tiempoRotacion, AxisConstraint.Y).OnComplete(()=> SistemaDialogo.trono.IniciarDialogo(dialogue, cameraPoint));      
         
     }
 

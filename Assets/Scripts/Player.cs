@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Burst.CompilerServices;
@@ -10,6 +11,7 @@ public class Player : MonoBehaviour
 
     NavMeshAgent agent;
     Camera cam;
+    [SerializeField] float tiempoRotacion;
 
     // guardo la informacion del npc actual al que voy a hablar
     Transform ultimoClick; 
@@ -36,15 +38,24 @@ public class Player : MonoBehaviour
             // comprobar si he llegado al npc
             if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
             {
-                npc.Interactuar(this.transform);
-                ultimoClick = null;
-              
+                // a trasves del LookAt, consigue que el jugador mire al NPC
+                // UNA VEZ COMPLETE EL GIRO, LANZAR ESTAS DOS LINEAS
+                //transform.DOLookAt(npc.transform.position, tiempoRotacion, AxisConstraint.Y).OnComplete( () => LanzarInteraccion(npc));
+                LanzarInteraccion(npc);
+
+
             }
         }
         else if (ultimoClick)
         {
             agent.stoppingDistance = 0f;
         }
+    }
+
+    void LanzarInteraccion(NPC npc)
+    {
+        npc.Interactuar(this.transform);
+        ultimoClick = null;
     }
 
     private void Movimiento()
