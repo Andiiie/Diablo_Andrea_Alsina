@@ -11577,11 +11577,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320282851}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27631934be03ca64e8f5ad3d08b00e53, type: 3}
+  m_Script: {fileID: 11500000, guid: a64ca2966f8f1244aa5d5528c7f0ac57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  main: {fileID: 407430505}
+  velocidadCombate: 0.5
+  agentMain: {fileID: 407430506}
 --- !u!1001 &1330374806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18863,11 +18866,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2114476138}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45234787ce47caa4b9634f38eab28ee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  main: {fileID: 407430505}
   ruta: {fileID: 2079238813}
   agentEnemy: {fileID: 407430506}
 --- !u!135 &2114476141
@@ -18885,7 +18889,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
