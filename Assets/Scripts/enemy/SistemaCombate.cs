@@ -10,6 +10,7 @@ public class SistemaCombate : MonoBehaviour
     [SerializeField] float velocidadCombate = 5.5f;
     [SerializeField] NavMeshAgent agentMain;
     [SerializeField] float distanciaAtaque = 1.5f;
+    [SerializeField] Animator animator;
     
 
     void Start()
@@ -27,6 +28,28 @@ public class SistemaCombate : MonoBehaviour
 
     void Update()
     {
-        agentMain.SetDestination(main.MainTarget.position);
+        if (main.MainTarget != null && agentMain.CalculatePath(main.MainTarget.position, new NavMeshPath()))
+        {
+            // voy persiguiendo al target en todo momento (calculando su posicion)
+            agentMain.SetDestination(main.MainTarget.position);
+            if (agentMain.remainingDistance <= distanciaAtaque)
+            { 
+              animator.SetBool("attack", true);
+
+            }
+        }
+        else //si no lo puedo alcanzar
+        {
+            main.ActivarPatrulla();
+        }
+        
+    }
+
+    void EnfocarObjetivo()
+    {
+        Vector3 direccionATarget = (main.MainTarget.position - this.transform.position).normalized;
+        direccionATarget.y = 0;
+        Quaternion rotacionATarget = Quaternion.LookRotation(direccionATarget);
+        transform.rotation = rotacionATarget;
     }
 }

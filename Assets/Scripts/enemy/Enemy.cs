@@ -22,12 +22,18 @@ public class Enemy : MonoBehaviour
         patrulla.enabled = true;
     }
 
-    internal void ActivaCombate(Transform target)
+    public void ActivaCombate(Transform target)
     {
         // ahora tenemos un target al cual perseguir
         mainTarget = target;
         
         // nos dicen de activar el combate
         combate.enabled = true;
+    }
+
+    public void ActivarPatrulla()
+    {
+        combate.enabled = false;
+        patrulla.enabled = true;
     }
 }

@@ -530,12 +530,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -609,12 +614,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -688,12 +698,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -1061,12 +1076,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -1298,12 +1318,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -1377,12 +1402,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -1535,12 +1565,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -1867,12 +1902,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -2606,12 +2646,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -2887,12 +2932,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -3217,12 +3267,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -4073,7 +4128,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 543450652100650998}
-  - {fileID: 1229694041}
   - {fileID: 2079238813}
   - {fileID: 2114476139}
   - {fileID: 1320282852}
@@ -4099,7 +4153,7 @@ NavMeshAgent:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407430500}
   m_Enabled: 1
-  m_AgentTypeID: 0
+  m_AgentTypeID: -334000983
   m_Radius: 0.5
   m_Speed: 2
   m_Acceleration: 8
@@ -4198,12 +4252,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -4630,12 +4689,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -4871,12 +4935,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -5029,12 +5098,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -5187,12 +5261,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -5534,12 +5613,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -5692,12 +5776,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -7357,12 +7446,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -7711,12 +7805,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -8199,12 +8298,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -8436,12 +8540,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -8624,12 +8733,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -8892,12 +9006,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -8971,12 +9090,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -9129,12 +9253,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -9208,12 +9337,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -9613,12 +9747,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -9692,12 +9831,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -9929,12 +10073,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -10268,12 +10417,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -11015,6 +11169,7 @@ GameObject:
   - component: {fileID: 1229694041}
   - component: {fileID: 1229694042}
   - component: {fileID: 1229694043}
+  - component: {fileID: 1229694044}
   m_Layer: 0
   m_Name: enemy visual
   m_TagString: Untagged
@@ -11030,12 +11185,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229694040}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.71666664, z: 0}
+  m_LocalScale: {x: 0.7692308, y: 0.83333325, z: 0.83333325}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 407430504}
+  m_Children:
+  - {fileID: 5465940245971699554}
+  m_Father: {fileID: 543450652100650998}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1229694042
 Animator:
@@ -11050,7 +11206,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 449cfcf795fd49f43b33367db818013a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -11071,6 +11227,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 407430506}
+--- !u!114 &1229694044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229694040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6b534db0d052214bad7ea262c9f157f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1272953928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11585,6 +11753,8 @@ MonoBehaviour:
   main: {fileID: 407430505}
   velocidadCombate: 0.5
   agentMain: {fileID: 407430506}
+  distanciaAtaque: 1.5
+  animator: {fileID: 1229694042}
 --- !u!1001 &1330374806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12020,12 +12190,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -12336,12 +12511,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -12415,12 +12595,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -12578,12 +12763,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -12815,12 +13005,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -12973,12 +13168,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -13052,12 +13252,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -13447,12 +13652,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -13526,12 +13736,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -13760,12 +13975,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -13839,12 +14059,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -13997,12 +14222,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -14076,12 +14306,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -15027,12 +15262,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -15264,12 +15504,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -15501,12 +15746,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -15848,12 +16098,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -16066,12 +16321,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -16145,12 +16405,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -16386,6 +16651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1812799627}
   - component: {fileID: 1812799628}
+  - component: {fileID: 1812799629}
   m_Layer: 0
   m_Name: escenario
   m_TagString: Untagged
@@ -16444,18 +16710,54 @@ MonoBehaviour:
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 50b0088f7bef59a49a0ae4b0bf3ca809, type: 2}
   m_BuildHeightMesh: 0
+--- !u!114 &1812799629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812799626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: -334000983
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  m_UseGeometry: 0
+  m_DefaultArea: 3
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 356df23ec15fefd4cbe711f5f8b9fc07, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1001 &1813599063
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -16608,12 +16910,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -16710,15 +17017,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1207972697789002155}
-  - {fileID: 1567395645}
-  - {fileID: 2128725214}
-  - {fileID: 1002770798}
-  - {fileID: 1006098878}
-  - {fileID: 1893479881}
-  - {fileID: 1405789355}
-  - {fileID: 938084007}
-  - {fileID: 1540135494}
   - {fileID: 126125622}
   - {fileID: 1728084098}
   - {fileID: 1340368328}
@@ -16737,14 +17035,6 @@ Transform:
   - {fileID: 1674791091}
   - {fileID: 1975215906}
   - {fileID: 1303567123}
-  - {fileID: 1706607304}
-  - {fileID: 314243948}
-  - {fileID: 1738335700}
-  - {fileID: 1155747420}
-  - {fileID: 910805959}
-  - {fileID: 1053103980}
-  - {fileID: 819010578}
-  - {fileID: 1500798620}
   - {fileID: 1148817323}
   - {fileID: 593870824}
   - {fileID: 1092951346}
@@ -16767,25 +17057,6 @@ Transform:
   - {fileID: 1194167093}
   - {fileID: 1958509935}
   - {fileID: 553018550}
-  - {fileID: 1688515209}
-  - {fileID: 540172824}
-  - {fileID: 1434465223}
-  - {fileID: 1798693990}
-  - {fileID: 1931935392}
-  - {fileID: 1986032894}
-  - {fileID: 553902341}
-  - {fileID: 70489858}
-  - {fileID: 1094225770}
-  - {fileID: 219895277}
-  - {fileID: 1385096033}
-  - {fileID: 1958770342}
-  - {fileID: 157258123}
-  - {fileID: 510113660}
-  - {fileID: 1568521668}
-  - {fileID: 335201922}
-  - {fileID: 835691539}
-  - {fileID: 112934460}
-  - {fileID: 1847980557}
   - {fileID: 1338878794}
   - {fileID: 1154376104}
   - {fileID: 139200341}
@@ -16808,20 +17079,7 @@ Transform:
   - {fileID: 1578961312}
   - {fileID: 1380026576}
   - {fileID: 940598650}
-  - {fileID: 551652660}
-  - {fileID: 2051982276}
-  - {fileID: 1844509030}
-  - {fileID: 67345748}
-  - {fileID: 1947589646}
-  - {fileID: 1841431553}
-  - {fileID: 1119527592}
-  - {fileID: 1054843088}
-  - {fileID: 425016129}
-  - {fileID: 1390391562}
-  - {fileID: 1524219415}
-  - {fileID: 149700297}
-  - {fileID: 476942694}
-  - {fileID: 1828213580}
+  - {fileID: 1909634322}
   - {fileID: 1142087350}
   - {fileID: 2141020426}
   - {fileID: 1542812188}
@@ -16840,13 +17098,6 @@ Transform:
   - {fileID: 1203756898}
   - {fileID: 1637530607}
   - {fileID: 1450488567}
-  - {fileID: 524051632}
-  - {fileID: 168142081}
-  - {fileID: 294340932}
-  - {fileID: 1795484258}
-  - {fileID: 1813599064}
-  - {fileID: 1510845085}
-  - {fileID: 1791684864}
   - {fileID: 1882125980}
   - {fileID: 371462347}
   - {fileID: 267907099}
@@ -16865,13 +17116,6 @@ Transform:
   - {fileID: 1204242874}
   - {fileID: 889579078}
   - {fileID: 1119636900}
-  - {fileID: 883892266}
-  - {fileID: 1980523540}
-  - {fileID: 1451864970}
-  - {fileID: 1365873154}
-  - {fileID: 54403542}
-  - {fileID: 1461980509}
-  - {fileID: 1146811293}
   - {fileID: 2130025990}
   - {fileID: 105533590}
   - {fileID: 255036353}
@@ -16898,12 +17142,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -16977,12 +17226,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -17056,12 +17310,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -17293,12 +17552,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -17445,6 +17709,101 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1897399078}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1909634321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1909634322}
+  m_Layer: 7
+  m_Name: piso_combate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1909634322
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909634321}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1207972697789002155}
+  - {fileID: 1567395645}
+  - {fileID: 2128725214}
+  - {fileID: 1002770798}
+  - {fileID: 1006098878}
+  - {fileID: 1893479881}
+  - {fileID: 1405789355}
+  - {fileID: 938084007}
+  - {fileID: 1540135494}
+  - {fileID: 1706607304}
+  - {fileID: 314243948}
+  - {fileID: 1738335700}
+  - {fileID: 1155747420}
+  - {fileID: 910805959}
+  - {fileID: 1053103980}
+  - {fileID: 819010578}
+  - {fileID: 1500798620}
+  - {fileID: 1688515209}
+  - {fileID: 540172824}
+  - {fileID: 1434465223}
+  - {fileID: 1798693990}
+  - {fileID: 1931935392}
+  - {fileID: 1986032894}
+  - {fileID: 553902341}
+  - {fileID: 70489858}
+  - {fileID: 1094225770}
+  - {fileID: 219895277}
+  - {fileID: 1385096033}
+  - {fileID: 1958770342}
+  - {fileID: 157258123}
+  - {fileID: 510113660}
+  - {fileID: 1568521668}
+  - {fileID: 335201922}
+  - {fileID: 835691539}
+  - {fileID: 112934460}
+  - {fileID: 1847980557}
+  - {fileID: 551652660}
+  - {fileID: 2051982276}
+  - {fileID: 1844509030}
+  - {fileID: 67345748}
+  - {fileID: 1947589646}
+  - {fileID: 1841431553}
+  - {fileID: 1119527592}
+  - {fileID: 1054843088}
+  - {fileID: 425016129}
+  - {fileID: 1390391562}
+  - {fileID: 1524219415}
+  - {fileID: 149700297}
+  - {fileID: 476942694}
+  - {fileID: 1828213580}
+  - {fileID: 524051632}
+  - {fileID: 168142081}
+  - {fileID: 294340932}
+  - {fileID: 1795484258}
+  - {fileID: 1813599064}
+  - {fileID: 1510845085}
+  - {fileID: 1791684864}
+  - {fileID: 883892266}
+  - {fileID: 1980523540}
+  - {fileID: 1451864970}
+  - {fileID: 1365873154}
+  - {fileID: 54403542}
+  - {fileID: 1461980509}
+  - {fileID: 1146811293}
+  m_Father: {fileID: 1834416326}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1924767610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17530,12 +17889,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -17609,12 +17973,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -17925,12 +18294,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -18241,12 +18615,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -18320,12 +18699,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -18557,12 +18941,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -18874,6 +19263,7 @@ MonoBehaviour:
   main: {fileID: 407430505}
   ruta: {fileID: 2079238813}
   agentEnemy: {fileID: 407430506}
+  velocidadPatrulla: 0
 --- !u!135 &2114476141
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -18980,12 +19370,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -19368,7 +19763,7 @@ Transform:
   - {fileID: 6515712191958375439}
   - {fileID: 7078722786906585472}
   m_Father: {fileID: 1202371031011975193}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 2.004774, y: -5.51545, z: -0.08909011}
 --- !u!4 &366175169686651476
 Transform:
   m_ObjectHideFlags: 0
@@ -19497,7 +19892,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3753711327359056182}
-  - {fileID: 5465940245971699554}
+  - {fileID: 1229694041}
   m_Father: {fileID: 407430504}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &608321760910517857
@@ -19515,7 +19910,7 @@ Transform:
   m_Children:
   - {fileID: 2916570861754881717}
   m_Father: {fileID: 5477181765547364039}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 60.453102, y: -53.720108, z: -49.007805}
 --- !u!4 &608321761287812167
 Transform:
   m_ObjectHideFlags: 0
@@ -19783,7 +20178,7 @@ Transform:
   m_Children:
   - {fileID: 2925517128580083718}
   m_Father: {fileID: 2365583845321597383}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -11.1291485, y: 4.2480884, z: 53.199963}
 --- !u!4 &1031632035969175437
 Transform:
   m_ObjectHideFlags: 0
@@ -19880,7 +20275,7 @@ Transform:
   m_Children:
   - {fileID: 2325615478634505903}
   m_Father: {fileID: 6323950000903757977}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 74.397835, y: -146.10564, z: -154.3909}
 --- !u!4 &1092408309410666862
 Transform:
   m_ObjectHideFlags: 0
@@ -19930,7 +20325,7 @@ Transform:
   m_Children:
   - {fileID: 497831376009550423}
   m_Father: {fileID: 6655383507500056490}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 55.087097, y: 161.94716, z: 171.39613}
 --- !u!4 &1189529852409748051
 Transform:
   m_ObjectHideFlags: 0
@@ -19962,7 +20357,7 @@ Transform:
   m_Children:
   - {fileID: 5372056942515355457}
   m_Father: {fileID: 1852576805999837141}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 86.506874, y: -162.14403, z: -158.65619}
 --- !u!4 &1202371031011975193
 Transform:
   m_ObjectHideFlags: 0
@@ -19978,7 +20373,7 @@ Transform:
   m_Children:
   - {fileID: 366175169577275506}
   m_Father: {fileID: 5742672707320673521}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 2.2630582, y: -5.3179774, z: -0.42660713}
 --- !u!4 &1202371031037473343
 Transform:
   m_ObjectHideFlags: 0
@@ -20064,7 +20459,7 @@ Transform:
   m_Children:
   - {fileID: 7666680085373578325}
   m_Father: {fileID: 6502182840186574302}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 84.437035, y: -7.584026, z: -0.11759073}
 --- !u!1 &1339101016173503958
 GameObject:
   m_ObjectHideFlags: 0
@@ -20129,7 +20524,7 @@ Transform:
   m_Children:
   - {fileID: 3558328719901021862}
   m_Father: {fileID: 6629111071781670978}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 70.62724, y: 150.56462, z: 158.90936}
 --- !u!1 &1565405415691545766
 GameObject:
   m_ObjectHideFlags: 0
@@ -20228,7 +20623,7 @@ Transform:
   - {fileID: 9118793901663823633}
   - {fileID: 8447082967620818147}
   m_Father: {fileID: 2563496968008824245}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 12.441498, y: 1.105957, z: -6.0755806}
 --- !u!4 &1852576806225997299
 Transform:
   m_ObjectHideFlags: 0
@@ -20296,7 +20691,7 @@ Transform:
   m_Children:
   - {fileID: 234480623967265621}
   m_Father: {fileID: 8352548717438564480}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 3.4133186, y: -9.398397, z: -43.23532}
 --- !u!4 &2003599735660487457
 Transform:
   m_ObjectHideFlags: 0
@@ -20445,7 +20840,7 @@ Transform:
   m_Children:
   - {fileID: 6452705233507823795}
   m_Father: {fileID: 7151331952196593344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 67.695816, y: -23.693336, z: -6.468504}
 --- !u!4 &2348787448710941706
 Transform:
   m_ObjectHideFlags: 0
@@ -20494,7 +20889,7 @@ Transform:
   m_Children:
   - {fileID: 1031632035860323755}
   m_Father: {fileID: 5048025441904462923}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 10.461138, y: 18.399446, z: 18.639578}
 --- !u!4 &2420202490003198671
 Transform:
   m_ObjectHideFlags: 0
@@ -20526,7 +20921,7 @@ Transform:
   m_Children:
   - {fileID: 5790970486140818213}
   m_Father: {fileID: 366175169577275506}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 75.08743, y: 83.13884, z: -53.68428}
 --- !u!4 &2455146754694557301
 Transform:
   m_ObjectHideFlags: 0
@@ -20542,7 +20937,7 @@ Transform:
   m_Children:
   - {fileID: 6069836247106441165}
   m_Father: {fileID: 5372056942515355457}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 55.102158, y: -161.16571, z: -171.0892}
 --- !u!4 &2455146754937502803
 Transform:
   m_ObjectHideFlags: 0
@@ -20597,7 +20992,7 @@ Transform:
   m_Children:
   - {fileID: 7151331952196593344}
   m_Father: {fileID: 5465940245971699554}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -51.56392, y: 1.9987097, z: 167.10895}
 --- !u!4 &2563496967966680979
 Transform:
   m_ObjectHideFlags: 0
@@ -20630,7 +21025,7 @@ Transform:
   m_Children:
   - {fileID: 1852576805999837141}
   m_Father: {fileID: 6000407480044445464}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 5.3770595, y: 0.63371706, z: 30.533073}
 --- !u!1 &2586065996700948933
 GameObject:
   m_ObjectHideFlags: 0
@@ -20806,7 +21201,7 @@ Transform:
   m_Children:
   - {fileID: 8044669280367146519}
   m_Father: {fileID: 608321760910517857}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 45.21231, y: 8.012274, z: 3.8714218}
 --- !u!4 &2916570862266254483
 Transform:
   m_ObjectHideFlags: 0
@@ -21045,7 +21440,7 @@ Transform:
   m_Children:
   - {fileID: 7934756006553976611}
   m_Father: {fileID: 6833846120843631159}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 69.32989, y: 154.25667, z: 162.47124}
 --- !u!4 &3199222091613317921
 Transform:
   m_ObjectHideFlags: 0
@@ -21078,7 +21473,7 @@ Transform:
   m_Children:
   - {fileID: 822416212390289460}
   m_Father: {fileID: 6341119540848910097}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 69.180984, y: -152.66254, z: -161.37177}
 --- !u!4 &3269390492854482834
 Transform:
   m_ObjectHideFlags: 0
@@ -21209,7 +21604,7 @@ Transform:
   m_Children:
   - {fileID: 8251234210570804767}
   m_Father: {fileID: 1564860334329323054}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 74.61655, y: 148.16408, z: 156.03339}
 --- !u!4 &3558328719925855360
 Transform:
   m_ObjectHideFlags: 0
@@ -21354,7 +21749,7 @@ Transform:
   m_Children:
   - {fileID: 6341119540848910097}
   m_Father: {fileID: 1852576805999837141}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 85.28395, y: -1.0430906, z: -7.4049234}
 --- !u!4 &3742394134490065456
 Transform:
   m_ObjectHideFlags: 0
@@ -21387,7 +21782,7 @@ Transform:
   m_Children:
   - {fileID: 5097370188999723871}
   m_Father: {fileID: 8153021304329815739}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 59.95093, y: -158.00978, z: -167.50806}
 --- !u!4 &3753711327359056182
 Transform:
   m_ObjectHideFlags: 0
@@ -21955,7 +22350,7 @@ Transform:
   m_Children:
   - {fileID: 6655383507500056490}
   m_Father: {fileID: 6502182840186574302}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 86.75116, y: 172.3292, z: 172.69589}
 --- !u!1 &4890665110871534933
 GameObject:
   m_ObjectHideFlags: 0
@@ -22124,7 +22519,7 @@ Transform:
   m_Children:
   - {fileID: 2365583845321597383}
   m_Father: {fileID: 6502182840186574302}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 21.627468, y: -14.864601, z: -13.926656}
 --- !u!4 &5084018298081386843 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2005389796602224876, guid: 45e2bcd74b64b3342827fae36ceaedbc,
@@ -22146,7 +22541,7 @@ Transform:
   m_Children:
   - {fileID: 7930214443716239808}
   m_Father: {fileID: 3742394134918084630}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 70.75941, y: -151.71141, z: -159.82628}
 --- !u!4 &5097370189158914425
 Transform:
   m_ObjectHideFlags: 0
@@ -22315,7 +22710,7 @@ Transform:
   m_Children:
   - {fileID: 2455146754694557301}
   m_Father: {fileID: 1189529852435105909}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 77.44265, y: -132.2685, z: -140.93877}
 --- !u!4 &5372056942674537831
 Transform:
   m_ObjectHideFlags: 0
@@ -22374,15 +22769,15 @@ Transform:
   m_GameObject: {fileID: 1082271959120109079}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0000011453665, y: -0.000004022597, z: 0.00012750401, w: 1}
-  m_LocalPosition: {x: -0.000014522676, y: 0.9771615, z: 0.012435706}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.00001887948, y: 0.31259373, z: 0.014922856}
+  m_LocalScale: {x: 1.3, y: 1.2, z: 1.2000002}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2559285842225970718}
   - {fileID: 8169382870272716893}
   - {fileID: 5742672707320673521}
-  m_Father: {fileID: 543450652100650998}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 1229694041}
+  m_LocalEulerAnglesHint: {x: 14.894711, y: 3.7295723, z: 8.747341}
 --- !u!4 &5465940246332085572
 Transform:
   m_ObjectHideFlags: 0
@@ -22418,7 +22813,7 @@ Transform:
   m_Children:
   - {fileID: 608321760910517857}
   m_Father: {fileID: 8169382870272716893}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -11.515485, y: 0.5625191, z: 2.5098488}
 --- !u!4 &5477181766042623201
 Transform:
   m_ObjectHideFlags: 0
@@ -22514,7 +22909,7 @@ Transform:
   m_Children:
   - {fileID: 1202371031011975193}
   m_Father: {fileID: 5465940245971699554}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -6.6356483, y: -4.332009, z: 1.9092724}
 --- !u!1 &5745358290012874655
 GameObject:
   m_ObjectHideFlags: 0
@@ -22562,7 +22957,7 @@ Transform:
   m_Children:
   - {fileID: 7410462539390566116}
   m_Father: {fileID: 2420202490381009129}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 48.89101, y: -39.676964, z: -71.55773}
 --- !u!4 &5790970486317170947
 Transform:
   m_ObjectHideFlags: 0
@@ -22594,7 +22989,7 @@ Transform:
   m_Children:
   - {fileID: 8700783698132857243}
   m_Father: {fileID: 6515712191958375439}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -4.508915, y: 12.154146, z: -11.240856}
 --- !u!4 &5901452233738413907
 Transform:
   m_ObjectHideFlags: 0
@@ -22628,7 +23023,7 @@ Transform:
   m_Children:
   - {fileID: 2563496968008824245}
   m_Father: {fileID: 7078722786906585472}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -4.4444523, y: -14.36882, z: 73.20642}
 --- !u!4 &6000407480471932222
 Transform:
   m_ObjectHideFlags: 0
@@ -22786,7 +23181,7 @@ Transform:
   m_Children:
   - {fileID: 1092408309385694024}
   m_Father: {fileID: 9118793901663823633}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 75.888016, y: -139.57304, z: -147.92224}
 --- !u!4 &6323950001281446591
 Transform:
   m_ObjectHideFlags: 0
@@ -22819,7 +23214,7 @@ Transform:
   m_Children:
   - {fileID: 3199222091856787719}
   m_Father: {fileID: 3667946888210125814}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 67.302284, y: -152.82819, z: -161.55281}
 --- !u!4 &6341119540873874743
 Transform:
   m_ObjectHideFlags: 0
@@ -22868,7 +23263,7 @@ Transform:
   m_Children:
   - {fileID: 4042427858076530021}
   m_Father: {fileID: 2348787448282799660}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 30.154022, y: -3.9819078, z: -0.01564021}
 --- !u!1001 &6471493928494989753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22976,7 +23371,7 @@ Transform:
   - {fileID: 6629111071781670978}
   - {fileID: 5048025441904462923}
   m_Father: {fileID: 7410462539390566116}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -20.574911, y: 15.66496, z: -23.75336}
 --- !u!1 &6514210123875618935
 GameObject:
   m_ObjectHideFlags: 0
@@ -23024,7 +23419,7 @@ Transform:
   m_Children:
   - {fileID: 5901452233629562229}
   m_Father: {fileID: 366175169577275506}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 11.684019, y: 0.9463724, z: 2.154954}
 --- !u!4 &6515712192335662633
 Transform:
   m_ObjectHideFlags: 0
@@ -23072,7 +23467,7 @@ Transform:
   m_Children:
   - {fileID: 1564860334329323054}
   m_Father: {fileID: 6502182840186574302}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 88.65899, y: -5.407386, z: -2.8768044}
 --- !u!4 &6655383507458436492
 Transform:
   m_ObjectHideFlags: 0
@@ -23105,7 +23500,7 @@ Transform:
   m_Children:
   - {fileID: 1155344851770453329}
   m_Father: {fileID: 4747904710864274840}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 79.83418, y: 152.86237, z: 161.21855}
 --- !u!4 &6833846120734902289
 Transform:
   m_ObjectHideFlags: 0
@@ -23138,7 +23533,7 @@ Transform:
   m_Children:
   - {fileID: 3183749884010898944}
   m_Father: {fileID: 8255111157587359733}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 67.3872, y: 154.07898, z: 162.38707}
 --- !u!4 &7078722786612652966
 Transform:
   m_ObjectHideFlags: 0
@@ -23170,7 +23565,7 @@ Transform:
   m_Children:
   - {fileID: 6000407480044445464}
   m_Father: {fileID: 366175169577275506}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 76.672195, y: -93.88007, z: 172.32892}
 --- !u!1 &7138560358080157327
 GameObject:
   m_ObjectHideFlags: 0
@@ -23218,7 +23613,7 @@ Transform:
   m_Children:
   - {fileID: 2348787448282799660}
   m_Father: {fileID: 2559285842225970718}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -41.38398, y: -14.012888, z: 6.552026}
 --- !u!4 &7151331952422892774
 Transform:
   m_ObjectHideFlags: 0
@@ -23267,7 +23662,7 @@ Transform:
   m_Children:
   - {fileID: 889744325152842883}
   m_Father: {fileID: 7666680085373578325}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 70.910965, y: 153.5313, z: 161.11563}
 --- !u!1 &7363479243843069373
 GameObject:
   m_ObjectHideFlags: 0
@@ -23332,7 +23727,7 @@ Transform:
   m_Children:
   - {fileID: 6502182840186574302}
   m_Father: {fileID: 5790970486140818213}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.195439, y: -14.635823, z: -118.80602}
 --- !u!1 &7442015437004194681
 GameObject:
   m_ObjectHideFlags: 0
@@ -23461,19 +23856,24 @@ Transform:
   m_Children:
   - {fileID: 7358631408823885350}
   m_Father: {fileID: 1330755671234759665}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 60.049717, y: 159.36786, z: 168.28003}
 --- !u!1001 &7674678412755513341
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834416326}
+    m_TransformParent: {fileID: 1909634322}
     m_Modifications:
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
       propertyPath: m_Name
       value: piso
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4064477618621980380, guid: 56d829dbbbb4f2047b51f5450d1271c2,
         type: 3}
@@ -23800,7 +24200,7 @@ Transform:
   m_Children:
   - {fileID: 3742394134918084630}
   m_Father: {fileID: 1852576805999837141}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 83.792404, y: 1.1474632, z: -8.393213}
 --- !u!4 &8153021304757310621
 Transform:
   m_ObjectHideFlags: 0
@@ -23921,7 +24321,7 @@ Transform:
   m_Children:
   - {fileID: 5477181765547364039}
   m_Father: {fileID: 5465940245971699554}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.981068, y: 9.420105, z: -176.39542}
 --- !u!4 &8251234210570804767
 Transform:
   m_ObjectHideFlags: 0
@@ -23967,7 +24367,7 @@ Transform:
   m_Children:
   - {fileID: 6833846120843631159}
   m_Father: {fileID: 6502182840186574302}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 85.70504, y: -6.631335, z: -0.68988574}
 --- !u!4 &8255111158099256787
 Transform:
   m_ObjectHideFlags: 0
@@ -23999,7 +24399,7 @@ Transform:
   m_Children:
   - {fileID: 2003599735500910855}
   m_Father: {fileID: 8447082967620818147}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 8.821871, y: 3.7829666, z: -22.330635}
 --- !u!4 &8352548717682027174
 Transform:
   m_ObjectHideFlags: 0
@@ -24048,7 +24448,7 @@ Transform:
   m_Children:
   - {fileID: 8352548717438564480}
   m_Father: {fileID: 1852576805999837141}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 27.689556, y: 10.870741, z: 12.2996855}
 --- !u!4 &8461037000856034622 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8603354706448691866, guid: e2b2bc79f92f18942b186a0fe7df583c,
@@ -24340,7 +24740,7 @@ Transform:
   m_Children:
   - {fileID: 6323950000903757977}
   m_Father: {fileID: 1852576805999837141}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 88.925156, y: -132.86697, z: -134.57632}
 --- !u!1 &9146825081141068705
 GameObject:
   m_ObjectHideFlags: 0
