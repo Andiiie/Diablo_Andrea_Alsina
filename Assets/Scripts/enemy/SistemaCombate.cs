@@ -8,8 +8,9 @@ public class SistemaCombate : MonoBehaviour
     [SerializeField] Enemy main;
 
     [SerializeField] float velocidadCombate = 5.5f;
-    [SerializeField] NavMeshAgent agentMain;
+    [SerializeField] NavMeshAgent agentEnemy;
     [SerializeField] float distanciaAtaque = 1.5f;
+    [SerializeField] float danhoAtaque = 1.5f;
     [SerializeField] Animator animator;
     
 
@@ -21,24 +22,24 @@ public class SistemaCombate : MonoBehaviour
 
     private void OnEnable()
     {
-        agentMain.speed = velocidadCombate;
-        agentMain.stoppingDistance = distanciaAtaque; 
+        agentEnemy.speed = velocidadCombate;
+        agentEnemy.stoppingDistance = distanciaAtaque; 
     }
 
 
     void Update()
     {
-        if (main.MainTarget != null && agentMain.CalculatePath(main.MainTarget.position, new NavMeshPath()))
+        if (main.MainTarget != null && agentEnemy.CalculatePath(main.MainTarget.position, new NavMeshPath()))
         {
             // voy persiguiendo al target en todo momento (calculando su posicion)
-            agentMain.SetDestination(main.MainTarget.position);
-            if (agentMain.remainingDistance <= distanciaAtaque)
+            agentEnemy.SetDestination(main.MainTarget.position);
+            if (!agentEnemy.pathPending && agentEnemy.remainingDistance <= distanciaAtaque)
             { 
               animator.SetBool("attack", true);
 
             }
         }
-        else //si no lo puedo alcanzar
+        else // si no lo puedo alcanzar
         {
             main.ActivarPatrulla();
         }
@@ -52,4 +53,17 @@ public class SistemaCombate : MonoBehaviour
         Quaternion rotacionATarget = Quaternion.LookRotation(direccionATarget);
         transform.rotation = rotacionATarget;
     }
+
+    #region ejecutados por eventos de animacion
+    void Atacar()
+    {
+        // hacemos daño al player
+        main.MainTarget.GetComponent<Player>().HacerDanho(danhoAtaque);
+    }
+
+    void FinAnimationAtaque()
+    {
+        animator.SetBool("attack", false);
+    }
+    #endregion
 }

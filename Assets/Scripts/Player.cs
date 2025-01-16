@@ -24,7 +24,6 @@ public class Player : MonoBehaviour
     
     void Update()
     {
-        Movimiento();
 
         if (Time.timeScale == 1)
         {
@@ -32,7 +31,7 @@ public class Player : MonoBehaviour
         }
         
         // si existe un npc al cual pueda clickear...
-        if (ultimoClick&&ultimoClick.TryGetComponent(out NPC npc))
+        if (ultimoClick&&ultimoClick.TryGetComponent(out IInteractuable interactuable))
         {
             agent.stoppingDistance = distanciaInteraccion;
             // comprobar si he llegado al npc
@@ -41,9 +40,7 @@ public class Player : MonoBehaviour
                 // a trasves del LookAt, consigue que el jugador mire al NPC
                 // UNA VEZ COMPLETE EL GIRO, LANZAR ESTAS DOS LINEAS
                 //transform.DOLookAt(npc.transform.position, tiempoRotacion, AxisConstraint.Y).OnComplete( () => LanzarInteraccion(npc));
-                LanzarInteraccion(npc);
-
-
+                LanzarInteraccion(interactuable);
             }
         }
         else if (ultimoClick)
@@ -52,13 +49,13 @@ public class Player : MonoBehaviour
         }
     }
 
-    void LanzarInteraccion(NPC npc)
+    void LanzarInteraccion(IInteractuable interactuable)
     {
-        npc.Interactuar(this.transform);
+        interactuable.Interactuar(transform);
         ultimoClick = null;
     }
 
-    private void Movimiento()
+    void Movimiento()
     {
         // trazar un raycast desde la camara a la posicion del raton
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
@@ -70,9 +67,14 @@ public class Player : MonoBehaviour
                 ultimoClick = hit.transform;
             }
 
-                
+       
             
         }
+    }
+
+    public void HacerDanho(float danhoAtaque)
+    {
+        Debug.Log("Me hacen pupa :c" + danhoAtaque);
     }
 }
 
