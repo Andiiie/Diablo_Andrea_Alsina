@@ -13,6 +13,8 @@ public class Player : MonoBehaviour
     Camera cam;
     [SerializeField] float tiempoRotacion;
 
+    PlayerAnimation playerAnimation;
+
     // guardo la informacion del npc actual al que voy a hablar
     Transform ultimoClick; 
     void Start()
