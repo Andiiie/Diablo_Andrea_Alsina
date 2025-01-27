@@ -101,13 +101,14 @@ public class SistemaDialogo : MonoBehaviour
     void TerminarDialogo()
     {
         Time.timeScale = 1f; //volvemos al tiempo actual
+
         marcos.SetActive(false);
-        StopAllCoroutines();
         indiceFraseActual = 0; //para posteriores dialogos
 
         if (dialogoActual.tieneMision)
         {
-            eventManager.nuevaMision();
+            // comunico al EM que hay una nueva mision en este diálogo
+            eventManager.nuevaMision(dialogoActual.mision);
         }
         dialogoActual = null; //no tenemos ningun dialogo a no ser que se vuelva a clickar. 
     }

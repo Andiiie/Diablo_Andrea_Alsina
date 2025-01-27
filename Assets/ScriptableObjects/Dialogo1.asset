@@ -18,6 +18,6 @@ MonoBehaviour:
   - Para poder preparar la medicina, me hacen falta 3 setas en la receta... necesito
     tu ayuda para conseguirlas
   - 
-  tiempoEntreLetras: 0
+  tiempoEntreLetras: 1
   tieneMision: 1
-  textoMision: Consigue 3 setas de la muerte (0/3)
+  mision: {fileID: 11400000, guid: 251f4a49fc050334ab903e287506124e, type: 2}
