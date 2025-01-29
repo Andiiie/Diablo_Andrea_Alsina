@@ -1230,6 +1230,18 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 120719043}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ce055cfa837ead84e928a795f1751502,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 120719046}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ce055cfa837ead84e928a795f1751502,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 120719045}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ce055cfa837ead84e928a795f1751502,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 120719044}
   m_SourcePrefab: {fileID: 100100000, guid: ce055cfa837ead84e928a795f1751502, type: 3}
 --- !u!1 &120719042 stripped
 GameObject:
@@ -1258,6 +1270,59 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &120719044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120719042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 0.3822016, b: 0, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &120719045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120719042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aac7a59420227c4bb90af3db47a8c6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventManager: {fileID: 11400000, guid: 3896615e3ef23064bb74f4a571206979, type: 2}
+  misionAsociada: {fileID: 11400000, guid: 251f4a49fc050334ab903e287506124e, type: 2}
+--- !u!65 &120719046
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120719042}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5392437, y: 0.5190518, z: 0.39369488}
+  m_Center: {x: 0.0043104887, y: 0.23380756, z: 0.017426968}
 --- !u!1001 &126125621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24381,6 +24446,18 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6015963469920053504, guid: 2df8ac00d362d244799ebba394a3e8f1,
         type: 3}
+      propertyPath: dialogo1
+      value: 
+      objectReference: {fileID: 11400000, guid: fa5dafff0a9d5844caed960e3c4c8edb,
+        type: 2}
+    - target: {fileID: 6015963469920053504, guid: 2df8ac00d362d244799ebba394a3e8f1,
+        type: 3}
+      propertyPath: dialogo2
+      value: 
+      objectReference: {fileID: 11400000, guid: be174919cbb9c3645b354e0372f53393,
+        type: 2}
+    - target: {fileID: 6015963469920053504, guid: 2df8ac00d362d244799ebba394a3e8f1,
+        type: 3}
       propertyPath: dialogue
       value: 
       objectReference: {fileID: 11400000, guid: fa5dafff0a9d5844caed960e3c4c8edb,
@@ -24390,6 +24467,18 @@ PrefabInstance:
       propertyPath: cameraPoint
       value: 
       objectReference: {fileID: 1356554083}
+    - target: {fileID: 6015963469920053504, guid: 2df8ac00d362d244799ebba394a3e8f1,
+        type: 3}
+      propertyPath: eventManager
+      value: 
+      objectReference: {fileID: 11400000, guid: 3896615e3ef23064bb74f4a571206979,
+        type: 2}
+    - target: {fileID: 6015963469920053504, guid: 2df8ac00d362d244799ebba394a3e8f1,
+        type: 3}
+      propertyPath: misionAsociada
+      value: 
+      objectReference: {fileID: 11400000, guid: 251f4a49fc050334ab903e287506124e,
+        type: 2}
     - target: {fileID: 7299518728706218946, guid: 2df8ac00d362d244799ebba394a3e8f1,
         type: 3}
       propertyPath: m_LocalPosition.x

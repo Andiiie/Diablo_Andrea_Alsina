@@ -29,9 +29,10 @@ public class SistemaMisiones : MonoBehaviour
 
         toggleMision[mision.indiceMision].gameObject.SetActive(true);
     }
-    private void ActualizarToggle(MisionSO obj)
+    private void ActualizarToggle(MisionSO mision)
     {
-        
+        toggleMision[mision.indiceMision].TextoMision.text = mision.ordenInicial;
+        toggleMision[mision.indiceMision].TextoMision.text += "(" + mision.estadoActual + "/" + mision.repeticionesTotales + ")";
     }
     private void TerminarToggle(MisionSO mision)
     {
