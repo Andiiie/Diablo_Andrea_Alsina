@@ -48,7 +48,7 @@ public class SistemaDialogo : MonoBehaviour
 
         npcCamera.SetPositionAndRotation(cameraPoint.position, cameraPoint.rotation);
         // eñ dialogo actual con el que trabajemos es el que me dara como parametro de entrada
-        dialogoActual = dialogue;
+        this.dialogoActual = dialogue;
         marcos.SetActive(true);
         StartCoroutine(EscribirFrase());
     }

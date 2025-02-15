@@ -57,20 +57,23 @@ public class Player : MonoBehaviour
         ultimoClick = null;
     }
 
-    void Movimiento()
+     void Movimiento()
     {
-        // trazar un raycast desde la camara a la posicion del raton
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out RaycastHit hit))
+        if (Time.timeScale == 1)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Physics.Raycast(ray, out RaycastHit hit))
             {
-                agent.SetDestination(hit.point);
-                ultimoClick = hit.transform;
+                if (Input.GetMouseButtonDown(0))
+                {
+
+                    //Mirrar a ver si el punto donde e impactado tiene el script NPC
+                    agent.SetDestination(hit.point);
+                    ultimoClick = hit.transform;
+                }
+
             }
 
-       
-            
         }
     }
 
@@ -78,13 +81,5 @@ public class Player : MonoBehaviour
     {
         Debug.Log("Me hacen pupa :c" + danhoAtaque);
     }
+
 }
-
-
-// // mirar si el punto donde ha inpactado el raton tiene el script "NPC"
-//                if (hit.transform.TryGetComponent(out NPC npc))
-//{
-//    // en este caso, es el npc actual
-//    npcActual = npc;
-//    // distancia de parada es la de la interaccion
-//    agent.stoppingDistance = distanciaInteraccion;

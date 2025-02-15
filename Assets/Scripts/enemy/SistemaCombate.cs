@@ -42,6 +42,7 @@ public class SistemaCombate : MonoBehaviour
         else // si no lo puedo alcanzar
         {
             main.ActivarPatrulla();
+            animator.SetBool("attack", false);
         }
         
     }

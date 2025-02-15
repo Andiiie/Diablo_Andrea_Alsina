@@ -15,4 +15,4 @@ MonoBehaviour:
   frases: []
   tiempoEntreLetras: 0
   tieneMision: 0
-  mision: {fileID: 0}
+  mision: {fileID: 11400000, guid: 251f4a49fc050334ab903e287506124e, type: 2}

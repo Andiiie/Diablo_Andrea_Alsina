@@ -14,6 +14,6 @@ public class Billboard : MonoBehaviour
     void Update()
     {
         // para que la barra pueda mirar a la camara (solo funciona con el ortografico)
-        transform.forward = -cam.transform.forward; 
+        transform.forward = cam.transform.forward; 
     }
 }

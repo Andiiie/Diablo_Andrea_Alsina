@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1099f8813cb053e4192c38f61da6f306, type: 3}
   m_Name: Dialogo2
   m_EditorClassIdentifier: 
-  frases: []
+  frases:
+  - 'mondongo
+
+'
   tiempoEntreLetras: 0
   tieneMision: 0
   mision: {fileID: 0}
