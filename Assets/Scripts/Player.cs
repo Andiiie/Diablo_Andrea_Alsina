@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     [SerializeField] float tiempoRotacion;
 
     PlayerAnimation playerAnimation;
-
+    [SerializeField] GameObject Victoria;
     // guardo la informacion del npc actual al que voy a hablar
     Transform ultimoClick; 
     void Start()
@@ -81,5 +81,11 @@ public class Player : MonoBehaviour
     {
         Debug.Log("Me hacen pupa :c" + danhoAtaque);
     }
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("GameOver"))
+        {
+            Victoria.SetActive(true);
+        }
+    }
 }
