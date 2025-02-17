@@ -22,7 +22,7 @@ public class SistemaMisiones : MonoBehaviour
 
         toggleMision[mision.indiceMision].TextoMision.text = mision.ordenInicial;
 
-        if(mision.repetir)
+        if(mision.repeticion)
         {
             toggleMision[mision.indiceMision].TextoMision.text += "(" + mision.estadoActual + "/" + mision.repeticionesTotales + ")";
         }

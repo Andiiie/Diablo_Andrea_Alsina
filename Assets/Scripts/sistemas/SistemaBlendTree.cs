@@ -5,13 +5,12 @@ using UnityEngine.AI;
 
 public class SistemaBlendTree : MonoBehaviour
 {
-    Animator anim;
+    [SerializeField] Animator anim;
     [SerializeField] NavMeshAgent agent;
 
     private void Awake()
     {
-        // referencio al animador
-        anim = GetComponent<Animator>();
+      
     }
     void Start()
     {
@@ -19,7 +18,6 @@ public class SistemaBlendTree : MonoBehaviour
         // la velocidad actual es agent.velocity
     }
 
-    // Update is called once per frame
     void Update()
     {
         // en todos los frames voy actualizando mi velocity en función de mi velocidad actual

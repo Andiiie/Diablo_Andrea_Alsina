@@ -35,7 +35,8 @@ public class NPC : MonoBehaviour,IInteractuable
     {
         if (misionTerminada == misionAsociada)
         {
-            dialogoActual = dialogo2;  
+            dialogoActual = dialogo2;
+            
         }
     }
 

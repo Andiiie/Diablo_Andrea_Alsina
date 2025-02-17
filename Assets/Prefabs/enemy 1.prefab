@@ -438,7 +438,7 @@ MonoBehaviour:
   velocidadCombate: 5.5
   agentEnemy: {fileID: 7320058419493506995}
   distanciaAtaque: 1.5
-  danhoAtaque: 1.5
+  danhoAtaque: 30
   animator: {fileID: 2926413399859481646}
 --- !u!1 &2637595625812831603
 GameObject:
@@ -450,8 +450,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5667003692630391330}
   - component: {fileID: 2926413399859481646}
-  - component: {fileID: 1998927516324522499}
   - component: {fileID: 8303713975015208360}
+  - component: {fileID: 5205114349191503257}
+  - component: {fileID: 5774023512134070995}
   m_Layer: 0
   m_Name: enemy visual
   m_TagString: Untagged
@@ -496,19 +497,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1998927516324522499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2637595625812831603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b560e1f4d201c643ac5741f49c9d98c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agent: {fileID: 7320058419493506995}
 --- !u!114 &8303713975015208360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -522,11 +510,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   main: {fileID: 6283203761651617327}
-  velocidadCombate: 5
+  velocidadCombate: 4
   agentEnemy: {fileID: 7320058419493506995}
-  distanciaAtaque: 2
-  danhoAtaque: 1.5
+  distanciaAtaque: 1.5
+  danhoAtaque: 30
   animator: {fileID: 2926413399859481646}
+--- !u!114 &5205114349191503257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2637595625812831603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6b534db0d052214bad7ea262c9f157f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5774023512134070995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2637595625812831603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b560e1f4d201c643ac5741f49c9d98c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 2926413399859481646}
+  agent: {fileID: 7320058419493506995}
 --- !u!1 &2648120232868381105
 GameObject:
   m_ObjectHideFlags: 0

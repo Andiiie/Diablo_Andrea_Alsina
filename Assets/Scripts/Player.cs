@@ -2,8 +2,10 @@ using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Burst.CompilerServices;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Video;
 
 public class Player : MonoBehaviour
 {
@@ -16,7 +18,9 @@ public class Player : MonoBehaviour
     PlayerAnimation playerAnimation;
     [SerializeField] GameObject Victoria;
     // guardo la informacion del npc actual al que voy a hablar
-    Transform ultimoClick; 
+    Transform ultimoClick;
+    [SerializeField] float vida = 100;
+    [SerializeField] GameObject Derrota;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -30,6 +34,7 @@ public class Player : MonoBehaviour
         if (Time.timeScale == 1)
         {
             Movimiento();
+            Muerto();
         }
         
         // si existe un npc al cual pueda clickear...
@@ -79,6 +84,7 @@ public class Player : MonoBehaviour
 
     public void HacerDanho(float danhoAtaque)
     {
+       vida-=danhoAtaque;
         Debug.Log("Me hacen pupa :c" + danhoAtaque);
     }
     private void OnTriggerEnter(Collider other)
@@ -86,6 +92,13 @@ public class Player : MonoBehaviour
         if (other.CompareTag("GameOver"))
         {
             Victoria.SetActive(true);
+        }
+    }
+    private void Muerto()
+    {
+        if (vida <= 0)
+        {
+            Derrota.SetActive(true);
         }
     }
 }

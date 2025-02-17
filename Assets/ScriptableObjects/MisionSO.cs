@@ -6,13 +6,14 @@ using UnityEngine;
 [CreateAssetMenu (menuName = "Misión")]
 public class MisionSO : ScriptableObject
 {
-    public string ordenInicial; // indica lo que tienes que hacer, como recoger algo...
-    public string ordenFinal; // vuelve a hablar con tal...
+    public string ordenInicial;//Recoge...
+    public string ordenFinal;//"Vuelve a hablar con...
 
-    public bool repetir; // indica si la mision tiene varios pasos
+
+    public bool repeticion;//Si la mision tiene varios pasos.
     public int repeticionesTotales;
+    [NonSerialized]//Para que se pueda resetear la variable entre partidas
+    public int estadoActual=0;
 
-    [NonSerialized] public int estadoActual = 0;  
-
-    public int indiceMision; // es el identificador unico de las misiones y cuantas son
+    public int indiceMision; //Identificador unico
 }

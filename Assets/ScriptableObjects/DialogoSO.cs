@@ -6,7 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Dialogo")]
 public class DialogoSO  : ScriptableObject
 {
-    [TextArea(3, 7)] 
+    [TextArea] 
     public string[] frases;
     public float tiempoEntreLetras;
 

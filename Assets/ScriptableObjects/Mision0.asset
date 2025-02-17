@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Mision0
   m_EditorClassIdentifier: 
   ordenInicial: Recoge 3 setas de la muerte
-  ordenFinal: Vuelve con Gertrudis y dale las setas
-  repetir: 1
+  ordenFinal: Sal de la mazmorra y dale las setas
+  repeticion: 0
   repeticionesTotales: 3
-  estadoActual: 0
   indiceMision: 0

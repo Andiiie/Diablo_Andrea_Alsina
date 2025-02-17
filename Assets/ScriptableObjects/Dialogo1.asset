@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: Dialogo1
   m_EditorClassIdentifier: 
   frases:
-  - Mira chico, te cuento... a mi abuela le dio un yeyo y solo se puede curar con
-    una medicina del infierno
+  - "Hola, aventurero \xBFEst\xE1s intentando salir del laberinto?"
   - Para poder preparar la medicina, me hacen falta 3 setas en la receta... necesito
     tu ayuda para conseguirlas
-  - 
   tiempoEntreLetras: 1
   tieneMision: 1
   mision: {fileID: 11400000, guid: 251f4a49fc050334ab903e287506124e, type: 2}

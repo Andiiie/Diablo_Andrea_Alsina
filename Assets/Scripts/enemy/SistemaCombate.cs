@@ -12,7 +12,8 @@ public class SistemaCombate : MonoBehaviour
     [SerializeField] float distanciaAtaque = 1.5f;
     [SerializeField] float danhoAtaque = 1.5f;
     [SerializeField] Animator animator;
-    
+        
+
 
     void Start()
     {
@@ -54,6 +55,7 @@ public class SistemaCombate : MonoBehaviour
         Quaternion rotacionATarget = Quaternion.LookRotation(direccionATarget);
         transform.rotation = rotacionATarget;
     }
+   
 
     #region ejecutados por eventos de animacion
     void Atacar()
