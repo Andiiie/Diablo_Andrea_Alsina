@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Dialogo1
   m_EditorClassIdentifier: 
   frases:
-  - "Hola, aventurero \xBFEst\xE1s intentando salir del laberinto?"
-  - Para poder preparar la medicina, me hacen falta 3 setas en la receta... necesito
-    tu ayuda para conseguirlas
+  - "Hola, aventurero \xBFEst\xE1s intentando salir del laberinto?\nTe cuento mi
+    historia, mi amada est\xE1 enferma y necesito preparar una medicina muy complicada..."
+  - Para poder preparar la medicina, me hacen falta 3 setas de la muerte en la receta...
+    necesito tu ayuda para conseguirlas
   tiempoEntreLetras: 1
   tieneMision: 1
   mision: {fileID: 11400000, guid: 251f4a49fc050334ab903e287506124e, type: 2}
